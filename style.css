@@ -1,0 +1,80 @@
+/* This is my comment for Css */
+
+/* Selector{
+    propety:value;
+} */
+*{
+    color:purple;
+}
+
+h1{
+    color:purple;
+    font-size: 60px;
+}
+h2{
+    color: red; 
+}
+
+h4{
+    color: red; 
+}
+h5{
+    color: green; 
+}
+.container{
+    display: flex;
+    min-height: 20vh;
+    flex-direction: row;
+    justify-content: center;
+}
+
+
+
+p{
+    color: blue;
+}
+.redtext{
+    color: blue;
+}
+/* start . bluetext with ...<p class="bluetext"> then sentence */
+/* The '#' is a ID. Can onlu use 1 of these a page.*/
+#menu{
+    display: flex;
+    justify-content: space-evenly;
+    background-color: red;
+    height:20px;
+    border: 5px solid black;
+}
+#bob{
+    display: flex;
+    justify-content: space-evenly;
+    background-color: red;
+    height:20px;
+    border: 5px solid black;
+}
+/* This '.' is a class */
+.content{
+    width:100%;
+    
+    padding:10px;
+    border: 10px blue solid;
+    background-color: yellow;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+.mgrlist{
+    width:80%;
+    
+    padding:10px;
+    border: 10px blue solid;
+    background-color: yellow;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+img{
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
